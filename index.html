@@ -114,7 +114,7 @@
  <p>4のように言い方を変えればy=α÷x。xが5、yは9の場合、5が分母、分子はαの分数の答えが9ということになるので、5×9=45</p>
 	<input type="text" name="dai5" id="dai5"/>
 	</div>
- <form action="https://formspree.io/f/xnnqbwbw" method="POST">
+ <form action="https://formspree.io/f/xnnqbwbw" method="POST" id="furim">
 		<h3>最後に...このページを通してどのようなことを感じたか教えてください。特になければ、志歩ちゃんかわいいでもなんでもいいです。</h3>
 	 <h4>模範解答</h4>
 			<label for="shimei">お名前</label>
@@ -130,6 +130,17 @@
   <h3>以上でサイトは終わりです！ちょっと不慮のけがで作業効率が激下がりしてしまったけど、何とかやりました。ほんとはもうちょっと問題数を多くしたかったけど、そこは仕方ないので許してクレメンス</h3>
   <img class="kegaimg" src="https://i.imgur.com/5IOxYKz.jpeg" alt="けがの写真">
 	</div>
+	<script>
+document.getElementById("furim").addEventListener("submit", function(event){
+		const input = document.getElementById("kansou").value;
+
+		if(input.includes("かわいくない")) {
+			event.preventDefault(); 
+			window.location.href = "https://marukun1025.github.io/wankurisagi"; 
+		}
+	});	
+		
+	</script>
 	
 
 </body>
