@@ -11,6 +11,7 @@
 		.content{
 			background-color:#f9f9f9;
 			border-radius:20px;
+			padding:20px;
 		}
 		body{
 			background-color:#ccff00;
@@ -48,15 +49,17 @@
 		.btntxt{
 			font-size:25px;
 		}
-		.btntxt:hover{
-			color:#FFFFFF;
-		}
+	
 		.bunshione{
 			text-decoration:underline;
 		}
 	
 		.bunshitwo{
 			text-decoration:underline;
+		}
+		.kegaimg{
+			width:400px;
+			height:auto;
 		}
 		
 	</style>
@@ -84,16 +87,16 @@
 	<div class="dai3">
 		<h3>3.次の文のうち、比例する物には〇を、反比例するものには×を、どちらにも当てはまらないものには△を選択してください。</h3>
 		<div class="3_1">
-		<fieldset>
-		<legend>志歩ちゃんの身長が159cmの場合の志歩ちゃんの体重</legend>
+		<h4>志歩ちゃんの身長が159cmの場合の志歩ちゃんの体重</h4>
+			<p>身長が決まっていても体重は人それぞれなので、どちらにも当てはまらない。よって答えは△。</p>
 		
-		<legend>志歩ちゃんが42.195kmを秒速xmで走るときのかかる時間</legend>
-		
+<h4>志歩ちゃんが42.195kmを秒速xmで走るときのかかる時間</h4>
+		<p>例えば10mの道のりを秒速1mで歩くと10秒、秒速2mで歩くと5秒のように、距離が決まっている場合では走る速度とかかる時間は反比例するため、答えは×。</p>
 		</div>
 		<div class="3_3">
-		<fieldset>
-		<legend>志歩ちゃんのライブの観客数と売上(チケットはすべて同じ値段とする)</legend>
 		
+			<h4>志歩ちゃんのライブの観客数と売上(チケットはすべて同じ値段とする)</h4>
+		<p>すべてのチケットが同じ値段なら、チケットが2倍売れれば売り上げも二倍になるような比例の関係にあるため、答えは〇。</p>
 		</div>
 	</div>
 	<div class="dai4">
@@ -102,12 +105,13 @@
 		
 		<img class="gurafu1" src="https://i.imgur.com/lJYDGP7.png" alt="ごめん！画像が表示されないから、飛ばしてね☆"/>
 		<br>
-		<p>比例定数(α):このグラフは反比例のグラフで、4,2と2,4を通っている。ということは、α÷2=4,α÷4=2ということになり、α=8だとわかる。</p>
+		<p>比例定数(α):このグラフは反比例のグラフで、(4,2)と(2,4)を通っている。
+			反比例の式は言い方を変えるとy=α÷xで、例えば(4,2)を代入すると2=α÷4となり、α=8だとわかる。</p>
 	
 	</div>
 	<div class="dai5">
 	<h3>5.yはxに反比例し、xが5の時、yは9です。比例定数(α)を答えなさい。</h3>
- <p>言い方を変えればy=α÷x。xが5、yは9の場合、5が分母、分子はαの分数の答えが9ということになるので、5×9=45</p>
+ <p>4のように言い方を変えればy=α÷x。xが5、yは9の場合、5が分母、分子はαの分数の答えが9ということになるので、5×9=45</p>
 	<input type="text" name="dai5" id="dai5"/>
 	</div>
  <form action="https://formspree.io/f/xnnqbwbw" method="POST">
@@ -124,7 +128,7 @@
 			<button type="submit"><div class="btntxt">送信</div></button>
 		</form>
   <h3>以上でサイトは終わりです！ちょっと不慮のけがで作業効率が激下がりしてしまったけど、何とかやりました。ほんとはもうちょっと問題数を多くしたかったけど、そこは仕方ないので許してクレメンス</h3>
-  <img src="https://imgur.com/zmiC36X" alt="けがの写真">
+  <img class="kegaimg" src="https://i.imgur.com/5IOxYKz.jpeg" alt="けがの写真">
 	</div>
 	
 
